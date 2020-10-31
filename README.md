@@ -85,10 +85,10 @@ hadoop jar CoFriends-1.0-SNAPSHOT.jar com.hw6.CoFriends1 cofriends/input cofrien
 ([500,600],[])
 ```  
 ### CoFriends1: 运行截图  
-![CoFriends1,8088result](pics/cf1-1.png)
-![CoFriends1,8088result](pics/cf1-2.png)
-![CoFriends1,command_result](pics/cf1-3.png)
-![CoFriends1,command_result](pics/cf1-4.png)
+![CoFriends1,8088result](pics/cf1-1.png)  
+![CoFriends1,8088result](pics/cf1-2.png)  
+![CoFriends1,command_result](pics/cf1-3.png)  
+![CoFriends1,command_result](pics/cf1-4.png)  
 
 ## CoFriends 2.0
 CoFriends1的输出和实际情况是有一定的出入的。比如400和600显然是有一个共同好友100。但是这里并没有输出。原因是什么呢？仔细查看输入发现，CoFriends1必须是在好友关系是双向的情况下才能保证完全正确，即100如果是600的好友，就一定有600是100的好友。但是作业的输入文件中，100是600的好友，而600却没有出现在100的好友列表中。不知道是漏了还是允许单向的好友关系。在不改变输入的情况下，我打算对算法进行扩展，使得它能处理单向的好友关系。问题就可以理解为，找出任意两个用户共同关注的其他用户。  
@@ -152,10 +152,10 @@ hadoop jar CoFriends-1.0-SNAPSHOT.jar com.hw6.CoFriends2 cofriends/input cofrien
 ```  
 
 ### CoFriends2: 运行截图  
-![CoFriends2,8088result](pics/cf2-1.png)
-![CoFriends2,8088result](pics/cf2-2.png)
-![CoFriends2,8088result](pics/cf2-3.png)
-![CoFriends2,commandresult](pics/cf2-4.png)
+![CoFriends2,8088result](pics/cf2-1.png)  
+![CoFriends2,8088result](pics/cf2-2.png)  
+![CoFriends2,8088result](pics/cf2-3.png)  
+![CoFriends2,commandresult](pics/cf2-4.png)  
 ![CoFriends2,commandresult](pics/cf2-6.png)  
 
 ## 小结  
