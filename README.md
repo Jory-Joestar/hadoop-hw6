@@ -129,7 +129,7 @@ context.write(key, new Text(StringUtils.join(",", persons)));
 CombineMapper和CombineReducer是第二个job的mapper和reducer，逻辑和CoFriend1相同，这里就不赘述了。  
 由于设计了两个MapReduce job，第一个job的结果以SequenceFileOutputFormat的形式输出到临时文件中，第二个job从该临时文件读入，然后执行MapReduce，所以CombineMapper的key-value输入类型就可以直接设为<Text,Text>。
 
-### CoFriends1: 运行和输出
+### CoFriends2: 运行和输出
 可执行的jar包名称为CoFriends-1.0-SNAPSHOT（在target文件夹中）。调用的模块为com.hw6.CoFriends2。需指定输入和输出路径。在我的集群上运行的完整命令为：  
 hadoop jar CoFriends-1.0-SNAPSHOT.jar com.hw6.CoFriends2 cofriends/input cofriends/output  
 输出的文件放在了output/result2中。输出结果：  
