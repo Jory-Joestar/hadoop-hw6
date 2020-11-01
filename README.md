@@ -255,9 +255,9 @@ hadoop jar CoFriends-1.0-SNAPSHOT.jar com.hw6.CoFriends3 cofriends/input cofrien
 ([500,600],[100])
 ```  
 
-### CoFriends2: 运行截图  
-![CoFriends2,8088result](pics/cf3-1.png)  
-![CoFriends2,8088result](pics/cf3-2.png)  
-![CoFriends2,8088result](pics/cf3-3.png)  
-![CoFriends2,commandresult](pics/cf3-4.png)  
-![CoFriends2,commandresult](pics/cf3-6.png)  
+### CoFriends3: 运行截图  
+![CoFriends3,8088result](pics/cf3-1.png)  
+![CoFriends3,8088result](pics/cf3-2.png)  
+![CoFriends3,8088result](pics/cf3-3.png)  
+![CoFriends3,commandresult](pics/cf3-4.png)  
+![CoFriends3,commandresult](pics/cf3-6.png)  
